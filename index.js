@@ -21,4 +21,6 @@ app.get('/lokalizacja', (req, res) => {
     res.render('localization')
 })
 
-app.listen('8080');
+app.set("port", 3000);
+
+app.listen('3000');
