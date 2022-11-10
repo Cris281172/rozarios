@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 app.use(express.static('assets'));
+require('dotenv').config();
 
 app.set('view engine', 'pug');
 app.set('views', './views');
