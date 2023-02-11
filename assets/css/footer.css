@@ -43,11 +43,20 @@
 
 .main-footer .footer-content .fab.fa-facebook-square{
     font-size: 60px;
+    transition: 0.2s;
+}
+
+.main-footer .footer-content .fab.fa-facebook-square:hover{
+    color: #2a7cef;
 }
 
 .main-footer .footer-content .fab.fa-instagram-square{
     font-size: 60px;
     margin-left: 15px;
+}
+
+.main-footer .footer-content .fab.fa-instagram-square:hover{
+    color: #da3e61;
 }
 
 .main-footer .footer-content .socials-media-wrappper .link {

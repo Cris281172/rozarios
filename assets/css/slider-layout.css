@@ -27,7 +27,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(40, 40, 40, 0.83);
+    background-color: rgba(52, 42, 42, 0.83);
     border: none;
     color: #f0f0f0;
     border-radius: 50%;
@@ -47,10 +47,26 @@
 
 @media(max-width: 860px){
     .slider .arrow{
-        font-size: 30px;
-        padding: 5px 10px;
+        padding: 0;
+        height: calc(100% - 100px);
+        border-radius: 0;
+        width: 8%;
+        font-size: 32px;
+    }
+    .slider .arrow.left{
+        left: 0;
+    }
+    .slider .arrow.right{
+        right: 0;
     }
     .slider .slides-wrapper {
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media(max-width: 450px){
+    .slider .arrow{
+        width: 15%;
+        font-size: 28px;
     }
 }
